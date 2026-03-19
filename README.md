@@ -7,7 +7,7 @@ reais de cibersegurança e é capaz de distinguir entre atividades normais e ame
 
 ## 🚀 Resultados do Projeto (Resumo Executivo)
 
-O modelo foi submetido a um teste rigoroso com **23.900 novos registros** de tráfego que ele nunca havia visto antes.
+O modelo foi submetido a um teste rigoroso com **23.900 novos registros de ataque** de tráfego que ele nunca havia visto antes.
 
 * **Taxa de Acerto Geral (Acurácia):** 95.06%
 * **Eficiência na Detecção de Ataques:** 97.6% (O modelo barrou 23.317 ataques reais).
@@ -15,6 +15,16 @@ O modelo foi submetido a um teste rigoroso com **23.900 novos registros** de tr�
 
 > **Nota para Gestores:** Este diagnóstico permite que uma equipe de segurança (SOC) foque apenas nos 2.4% de alertas mais complexos, automatizando a triagem da grande massa de
 >  dados e reduzindo drasticamente o tempo de exposição a riscos.
+
+---
+
+![Top 10 pistas](/img/Top10_Pistas.png)
+
+
+---
+
+
+![Relatorio_Eficiencia_da_IA](/img/Relatorio_Eficiencia_da_IA.png)
 
 ---
 
@@ -47,3 +57,12 @@ Diferente de sistemas comuns, nossa IA aprendeu a identificar padrões suspeitos
 5.  **Relatório de Incidentes:** Criação de visualizações amigáveis que traduzem termos técnicos (como *Fuzzers* ou *Backdoors*) para linguagem de negócios.
 
 ---
+
+### Bibliotecas necessárias
+
+pip install pandas scikit-learn matplotlib seaborn fastparquet
+
+### Execute o arquivo .ipynb dentro do VS Code
+
+Desenvolvido por: Rafael Silva Guimarães 'guimaraesdevweb@gmail.com'
+Objetivo: Demonstrar o poder da IA aplicada à Defesa Cibernética.
