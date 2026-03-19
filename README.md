@@ -18,11 +18,14 @@ O modelo foi submetido a um teste rigoroso com **23.900 novos registros de ataqu
 
 ---
 
+### 📊 Principais Pistas de Ataque
+
 ![Top 10 pistas](/img/Top10_Pistas.png)
 
 
 ---
 
+### 🛡️ Eficiência por Tipo de Ameaça
 
 ![Relatorio_Eficiencia_da_IA](/img/Relatorio_Eficiencia_da_IA.png)
 
